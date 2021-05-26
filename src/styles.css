@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.window {
+  margin: 10px 15px 10px 15px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.para {
+  margin: 1px;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 340px) {
+  .window {
+    margin: 10px 15px 10px 15px;
+    display: block;
+    max-width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  img {
+    max-width: 100%;
+  }
+}
